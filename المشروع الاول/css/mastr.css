@@ -1,0 +1,995 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+ background-color: black;
+ width: 100%;
+ height: 80px;
+ position: fixed;
+ top: 0px;
+ left: 0px;
+ z-index: 9999;
+}
+img{
+    margin-left: 50px;
+}
+ul{
+   float: right;
+   margin-right: 80px;
+   margin-top: 15px;
+}
+li{
+display: inline-block;
+    list-style: none;
+    margin: 15px;
+    overflow: auto;
+    color:rgb(255, 204, 0);
+    font-size: 20px;
+    cursor: pointer;
+}
+.i1{
+    color: rgb(255, 204, 0);
+    font-size: 25px;
+   float: right;
+   margin-left:60%;
+   margin-top: -42px;
+   cursor: pointer;
+}
+.header2{
+    background-color: black;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 80px;
+    opacity: 0;
+}
+.i2{
+    color: rgb(255, 204, 0);
+    font-size: 20px;
+    float: left;
+    margin-left: 5%;
+    margin-top: -26px;
+    padding: 5px; 
+    cursor: pointer;
+}
+.pottn{
+    width: 30%;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 60%;
+}
+.header2:hover{
+    opacity: 1;
+    transition: 1.5s;
+}
+.one{
+    background-image: url(../img/Av2OP8.jpg);
+    background-size: cover;
+    background-position: left;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.text{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+   margin-left: 25%;
+   font-size: 15px;
+   text-align: center; 
+}
+h2{
+    background-color: rgba(0, 0, 0, 0.991);
+    color: rgb(255, 204, 0);
+}
+.bottone1{
+    height: 40px;
+    background-color: rgb(255, 230, 0);
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.boxing{
+    width: 35%;
+    height: 50%;
+    background-color: rgba(0, 0, 0, 0.258);
+    transform: translate(90% , 60%);
+}
+.tow{
+    width: 100%;
+    height: 100vh;
+}
+.Title{
+    font-size: 40px;
+    font-weight: bold;
+    color:  #cfa407ef;
+    text-align: center;
+    margin-top: 5%;
+}
+.line1{
+    width: 25%;
+    height: 7px;
+    margin: auto;
+    background-color:  #cfa407ef;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.box1{
+    width: 90%;
+    height: 50vh;
+    background-color: black;
+   margin: auto;
+   margin-top: 10vh;
+   position: relative;
+ }
+ .box11{
+    width: 25%;
+    height: 30vh;
+    background-image: url(../img/قطع-غيار-بي-إم-دبليو.jpg.webp);
+    background-size: cover;
+    display:inline-block;
+   position:relative;
+   padding: 20px;
+   margin-left:50px;
+   margin-top: 60px;
+  z-index: 50;
+ }
+ h3{
+  position: relative;
+    font-size: 40px;
+    color: rgb(255, 242, 0);
+   text-align: center;
+   margin-top: -10px;
+  
+  }
+ .pbox{
+  position: relative;
+    font-size: 30px;
+    color: rgb(240, 240, 244);
+    text-align: center;
+    font-weight: bold;  
+ }
+ span{
+  position: relative;
+    font-size: 35px;
+    color: rgb(242, 245, 47);
+    text-align: center;
+    margin-left: 80px;
+    cursor: pointer;
+ }
+ h3,.pbox,span:hover{
+  transition: 1s;
+  z-index: 770;
+ }
+ .box1::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(172, 161, 19);
+    transition: 2s;
+    opacity: 0.5;
+}
+.box1:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+ }
+ .box1::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background-color:rgb(172, 161, 19);
+    transition: 2s;
+    opacity: 0.5;
+}
+.box1:hover::before{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+ }
+ .box11::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left:0;
+    background-color: #000000ba;
+    transition: 1s;
+    opacity: 0.5;
+}
+.box11:hover::before{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    cursor: pointer; 
+ }
+ /* /////// section 3/////// */
+ .three{
+    width: 100%;
+    height: 100vh;
+ }
+ .Title2{
+    font-size: 40px;
+    font-weight: bold;
+    color:  #cfa407ef;
+    text-align: center;
+    margin-top: -8%;
+}
+ .line2{
+    width: 15%;
+    height: 5px;
+    margin: auto;
+    background-color:  #cfa407ef;
+    border-radius: 50%;
+    margin-top: 10px;
+ }
+  .group1{
+    width: 95%;
+    height: 50vh;
+    margin-top: 5%;
+    position: relative;
+  }
+  .carh2{
+    text-align: center;
+    cursor: pointer;
+    position: relative; 
+  }
+  .pthree{
+    font-size: 30px;
+    color:  rgb(17, 0, 69);
+    position: absolute;
+    z-index: 777;
+    margin-top: -15px;
+  }
+  .pthree:hover{
+    background-color: rgb(236, 232, 156);
+  }
+  .car1{
+    width: 30%;
+    height: 50vh;
+    display: inline-block;
+    margin-left: 33px;
+    position: relative;
+    cursor: pointer;
+  }
+  .car1::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 11, 11, 0.321);
+    transition: 1s;
+    opacity: 0;
+    margin-top: 45px;
+  }
+  .car1:hover::after{
+    width: 100%;
+    height: 120%;
+    opacity: 1;
+  }
+
+  .car2{
+    width: 30%;
+    height: 50vh;
+    display: inline-block;
+    margin-left: 33px;
+    position: relative;
+    cursor: pointer;
+  }
+  .car2::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 11, 11, 0.321);
+    transition: 1s;
+    opacity: 0;
+    margin-top: 45px;
+  }
+  .car2:hover::after{
+    width: 100%;
+    height: 120%;
+    opacity: 1;
+  }
+  .car3{
+    width: 30%;
+    height: 50vh;
+    display: inline-block;
+    margin-left: 33px;
+    position: relative;
+    cursor: pointer;
+  }
+  .car3::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 11, 11, 0.321);
+    transition: 1s;
+    opacity: 0;
+    margin-top: 45px;
+  }
+  .car3:hover::after{
+    width: 100%;
+    height: 120%;
+    opacity: 1;
+}
+.buttoncar{
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: rgba(63, 62, 60, 0.979);
+  color:rgb(255, 204, 0) ;
+  position: absolute;
+  margin-top: -35px;
+  margin-left: 40%;
+  z-index: 444;
+  cursor: pointer;
+}
+/* ////////    for  /////// */
+.span{
+  height: 40vh;
+}
+.for{
+  width: 100%; 
+  height:100vh;
+}
+.Package1{
+  width: 90%;
+  height: 25vh;
+margin-top: 8%;
+margin-left: 5%;
+position: relative;
+}
+.pg1{
+width: 25%;
+height: 25vh;
+background-color: rgb(177, 173, 173);
+display: inline-block;
+margin-left: 6%;
+border-top: 2px solid blue;
+border-bottom: 2px solid blue;
+position:relative;
+}
+.sasaa:hover{
+  position: relative;
+  color: white;
+  z-index: 88;
+}
+.nasa{
+  text-align: center;
+  display: inline-block;
+  font-size:30px ;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.bb{
+  font-size: 38px;
+  color: blue;
+  margin-top: 0;
+}
+.pg1p{
+  font-weight: bold;
+  text-align: center;
+margin-top: -10px;
+font-size: 20px;
+}
+.pg1::after{
+  content: "";
+  position:absolute;
+  width:0;
+  height:0 ;
+  top: 0;
+  left: 0;
+  transition: 1s;
+}
+.pg1:hover::after{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.628);
+}
+/* ////////////// five  ////////////// */
+.five{
+  width: 100%;
+  height: 100vh;
+}
+.contar{
+  width: 100%;
+  height: 70%;
+  background-color: #eee;
+}
+h1{
+  padding-top:40px ;
+  margin-left: 4%;
+  font-size: 40px;
+  font-weight: bolder;
+}
+.linefive{
+  width: 18%;
+  height: 7px;
+  background-color: rgb(234, 177, 20);
+  margin-left: 5%;
+  border-radius: 50%;
+  margin-top: -10px;
+}
+.p1{
+  margin-left: 4%;
+  font-size: 30px;
+  font-weight: bold;
+}
+.mark{
+  font-size: 26px;
+  margin-left: 6%;
+  color: rgb(32, 22, 1);
+}
+.ii{
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(255, 196, 0);
+ padding-right:10px ;
+}
+.imgfive{
+  border: 7px solid rgb(255, 196, 0);
+  border-radius: 50%;
+  margin-left: 65%;
+  margin-top: -27%;
+}
+.bot0{
+  margin-right: 17.5%;
+}
+.bot{
+  width: 15px;
+  height: 15px;
+  background-color: gray;
+  border-radius: 50%;
+  margin-top: 10px; 
+ overflow: auto;
+float: right;
+margin-right: 10px;
+}
+.bot:hover{
+  background-color: rgb(255, 187, 0);
+}
+/* /////////// six  /////////// */
+ .six{
+  width: 100%;
+  height: 80vh;
+  margin-top: -8%;
+ }
+.boxsix{
+ width: 100%;
+  height: 500px;
+  background-image: url(../img/4.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+}
+.onesix{
+  display: inline-block;
+   margin-top: 13%;
+  margin-left: 16%;
+  line-height: 10px;
+  text-align: center;
+}
+.i9{
+  font-size: 40px;
+  font-weight: bold;
+  color: blue;
+}
+.sixpr{
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(244, 244, 249);
+}
+/* //////////////  Seven  ////////////// */
+.Seven{
+  width: 100%;
+  height: 100vh;
+  background-color: #eee;
+  margin-top: -3%; 
+}
+.sevenh4{
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(255, 174, 0);
+  text-align: center;
+padding-top: 5%;
+}
+.line7{
+  width: 25%;
+  height: 10px;
+  margin: auto;
+  background-color: rgb(255, 174, 0);
+  border-radius: 50%;
+  margin-top: -30px;
+}
+.box7{
+  width: 300px;
+  height: 400px;
+  background-image: url(../img/خلفيات-سيارات-فخمة-32.jpg);
+  background-size: cover;
+  display: inline-block;
+  margin-left:10%;
+  margin-top: 90px;
+  position: relative;
+  border-bottom:4px solid  rgb(255, 221, 0);
+}
+.box7::after{
+  content: "";
+  position: absolute;
+  width:300px;
+  height: 0;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.696);
+  transition: 1s;
+  opacity: 0;
+}
+.box7:hover::after{
+  width: 300px;
+  height: 400px;
+  opacity: 1;
+}
+.h37{
+  margin-top: 20px;
+  font-size: 40px;
+  text-align: center;
+  color: rgb(255, 225, 0); 
+ position: relative;
+z-index: 1088;
+}
+.circle7{
+width: 120px;
+height: 120px;
+border-radius: 50%;
+border:2px solid rgb(255, 208, 0) ;
+ margin: auto;
+ margin-top: -35px;
+ position: relative;
+z-index: 1088;
+}
+.h6{
+font-size: 30px;
+font-weight: bolder;
+text-align: center;
+color: rgb(255, 217, 0); 
+margin-top: 25px;
+position: relative;
+z-index: 1088;
+}
+.pseven{
+  font-size: 20px;
+  color: rgb(255, 217, 0); 
+  text-align: center;
+  line-height: 40px;
+  margin-top: -5px;
+  position: relative;
+  z-index: 1088;
+}
+.button7{
+  width: 120px;
+  height: 40px;
+  background-color: rgba(255, 238, 0, 0.756);
+  margin-left: 95px;
+  border-radius: 50px;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  text-align: center;
+  position: relative;
+z-index: 1088;
+}
+/* //////////////sevenaa //////////// */
+.SevenAA{
+  width: 100%;
+  height: 70vh;
+  background-image: url(../img/ports_car_tuning_front_view_black_100126_1920x1080.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+.manoal{
+  border-radius: 50%;
+  margin-top: 10%;
+  margin-left: 10%;
+  display: inline-block;
+}
+.photo1{
+  font-size: 29px;
+  font-weight: bolder;
+  color:rgb(255, 255, 255);
+  margin-left: 22%;
+  margin-top: -8%;
+  cursor: pointer;
+}
+.photo2{
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(0, 68, 255);
+  margin-left: 22%;
+  margin-top: -2%;
+}
+.photo3{
+  font-size: 20px;
+  color:rgb(18, 248, 248);
+  margin-left: 22%;
+}
+.otomatc{
+position: absolute;
+  border-radius: 50%;
+  margin-left: 56%;
+  margin-top: -14%;
+  line-height: 20px;
+}
+.gaga{
+  margin-left: 59%;
+  margin-top: -12%;
+ line-height: 20px;
+}
+.photo32{
+  font-size: 20px;
+ line-height: 23px;
+  color:rgb(18, 248, 248);
+  margin-left: 22%;
+  margin-top: 40px;
+}
+.photo22{
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(0, 68, 255);
+  margin-left: 22%;
+  margin-top: -2%;
+  line-height: 5px;
+}
+/* /////////// eight ////////////// */
+.eight{
+  width: 100%;
+  height: 100vh;
+  background-color: #eee;
+  margin-top: 7%;
+}
+.eightp8{
+  font-size: 50px;
+  font-weight: bolder;
+  text-align: center;
+  padding-top:5%;
+}
+.line8{
+  width: 25%;
+  height: 10px;
+  margin: auto;
+  background-color: rgb(255, 174, 0);
+  border-radius: 50%;
+  margin-top: -45px;
+}
+.box8{
+  width: 90%;
+  height: 60vh;
+  background-image: url(../img/2024\ Mustang\ 19.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  margin: auto;
+  margin-top: 50px;
+}
+.bigcover, .bigcover28, .bigcover38{
+width: 300px;
+height: 300px;
+background-color: rgba(36, 35, 35, 0.438);
+  position: absolute;
+  margin-left: 80px;
+  margin-top: 75px;
+  border-radius: 20px;
+}
+.bigcover28{
+  margin-left: 38%;
+}
+.bigcover38{
+    margin-left: 70%;
+}
+.bigcover::after{
+  content: "";
+  position: absolute;
+  width: 300px;
+  height:0 ;
+  left: 0;
+  top: 0;
+  background-color: rgb(0, 0, 0);
+  transition: 2s;
+  opacity: 0.5;
+   border-radius: 20px;
+}
+.bigcover:hover::after{
+  width: 300px;
+  height: 300px;
+  opacity: 1;
+}
+.bigcover::before{
+  content: "";
+  position: absolute;
+  width: 300px;
+  height: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgb(0, 0, 0);
+  transition: 2s;
+  opacity: 0.5;
+  border-radius: 20px;
+}
+.bigcover:hover::before{
+  width: 300px;
+  height: 200px;
+  opacity: 1;
+}
+.bigcover28::after{
+  content: "";
+  position: absolute;
+  width: 300px;
+  height:0 ;
+  left: 0;
+  top: 0;
+  background-color: rgb(0, 0, 0);
+  transition: 2s;
+  opacity: 0.5;
+   border-radius: 20px;
+}
+.bigcover28:hover::after{
+  width: 300px;
+  height: 300px;
+  opacity: 1;
+}
+.bigcover28::before{
+  content: "";
+  position: absolute;
+  width: 300px;
+  height: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgb(0, 0, 0);
+  transition: 2s;
+  opacity: 0.5;
+  border-radius: 20px;
+}
+.bigcover28:hover::before{
+  width: 300px;
+  height: 200px;
+  opacity: 1;
+}
+.bigcover38::after{
+  content: "";
+  position: absolute;
+  width: 300px;
+  height:0 ;
+  left: 0;
+  top: 0;
+  background-color: rgb(0, 0, 0);
+  transition: 2s;
+  opacity: 0.5;
+   border-radius: 20px;
+}
+.bigcover38:hover::after{
+  width: 300px;
+  height: 300px;
+  opacity: 1;
+}
+.bigcover38::before{
+  content: "";
+  position: absolute;
+  width: 300px;
+  height: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgb(0, 0, 0);
+  transition: 2s;
+  opacity: 0.5;
+  border-radius: 20px;
+}
+.bigcover38:hover::before{
+  width: 300px;
+  height: 200px;
+  opacity: 1;
+}
+.cover81,.cover82,.cover83{
+  width: 250px;
+  height: 200px;
+  background-image: url(../img/bm.jpg);
+  background-size: cover;
+  background-position: center;
+ border-radius: 20px;
+  position: absolute;
+ margin-left: 25px;
+ margin-top: 15px;
+ z-index: 9979;
+}
+.cover82{
+  background-image: url(../img/mr.jpg);
+}
+.cover83{
+ background-image: url(../img/aaaaaaa.jpg);
+}
+.eightpone8{
+  position: relative;
+  font-size: 40px;
+  font-weight: bold;
+  color:white;
+  text-align: center;
+  margin-top:75%;
+  cursor: pointer;
+  z-index: 999;
+}
+.eightpone8:hover{
+  color: rgb(233, 207, 10);
+  transform: scale(1.2);
+}
+.i8{
+  font-size: 40px;
+    color: blue;
+    margin-left: 82%;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.i8:hover{
+color: rgb(255, 196, 0);
+transform: scale(1.2);
+ }
+/* ////////////// nine /////////////// */
+.nine{
+  width: 100%;
+  height: 100vh;
+}
+.h1nine{
+  font-weight: bolder;
+  color: rgb(255, 94, 0);
+  margin-left:auto;
+  font-size: 60px;
+  text-align: center;
+  margin-top: -10px;
+}
+.line9{ 
+  width: 30%;
+  height: 7px;
+  background-color: rgb(222, 190, 190);
+  margin-left: 35%;
+  border-radius: 50%;
+  margin-top:-3%;
+}
+.boxnine1{
+  width: 25%;
+height: 60%;
+background-color: #f1e9e9;
+transform: translate(50px , 100px);
+display: inline-block;
+margin-left: 65px;
+border-bottom:4px solid black ;
+border-top:4px solid black ;
+position: relative;
+}
+.boxnine1::after{
+  content: "";
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.381);
+  width: 100%;
+  height: 0;
+  top:  0;
+  opacity: 0.5;
+  transition: 1s;
+}
+.boxnine1:hover::after{
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+}
+.imgnine{
+  margin-left: 0%;
+}
+.name9{
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(255, 94, 0);
+  text-align: center;
+  margin-top: -5px;
+}
+.ninep{
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(90, 69, 1);
+text-align: center;
+margin-top: -10px;
+line-height: 35px;
+}
+.reedmor{
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: center;
+  color: rgb(255, 149, 0);
+  margin-top: -5px;
+  cursor: pointer;
+  position: relative;
+  z-index: 222;
+}
+.reedmor:hover{
+  color: red;
+transform: scale(1.2);
+}
+/* ////////////////// the end  //////////////// */
+.end{
+  width: 100%;
+  height: 55vh;
+  background-image: url(../img/ما-هو-موقع-دبي-كارز.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center; 
+}
+.namepj{
+  font-size: 70px;
+  font-weight: bold;
+  color: black;
+ text-align: center;
+ margin-right:2% ;
+  margin-top: -22%;
+}
+
+.end1{
+  font-size: 35px;
+  color: rgb(2, 4, 43);
+  margin-left:5% ;
+  margin-top: 20px;
+}
+.end1:hover{
+  color:rgb(255, 217, 0);
+}
+.end2{
+  font-size: 35px;
+  color: rgb(2, 4, 43);
+  margin-left:5% ;
+}
+.end2:hover{
+  color:rgb(255, 217, 0);
+}
+.end11{
+  font-size: 30px;
+  font-weight: bolder;
+  color: rgb(67, 156, 245);
+  margin-left: 9%;
+  margin-top: -30px;
+}
+.end11:hover{
+  color:rgb(255, 217, 0);
+}
+.lest{
+  font-size: 45px;
+ margin-top: -22%;
+  margin-left:80%;
+  color: rgb(0, 60, 255);
+  cursor: pointer; 
+  line-height: 20px;
+}
+.inmenu{
+  font-size: 27px;
+  color: rgb(14, 227, 227);
+  margin-left: 80%;
+  line-height: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.inmenu:hover{
+  color:rgb(255, 217, 0);
+}
